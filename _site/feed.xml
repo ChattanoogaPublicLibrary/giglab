@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <link>http://incorporated.sendtoinc.com</link>
-    <atom:link href="http://incorporated.sendtoinc.com/feed.xml" rel="self" type="application/rss+xml" />
+    <link>http://blog.giglab.io</link>
+    <atom:link href="http://blog.giglab.io/feed.xml" rel="self" type="application/rss+xml" />
     <description></description>
     <language>en-us</language>
-    <pubDate>Sun, 14 Sep 2014 03:33:27 +0000</pubDate>
-    <lastBuildDate>Sun, 14 Sep 2014 03:33:27 +0000</lastBuildDate>
+    <pubDate>Sun, 14 Sep 2014 03:43:05 +0000</pubDate>
+    <lastBuildDate>Sun, 14 Sep 2014 03:43:05 +0000</lastBuildDate>
 
     
     
     <item>
       <title>Jekyll Incorporated Features</title>
-      <link>http://incorporated.sendtoinc.com/2013/10/08/incorporated/</link>
+      <link>http://blog.giglab.io/2013/10/08/incorporated/</link>
       <pubDate>Tue, 08 Oct 2013 00:00:00 +0000</pubDate>
       <author></author>
-      <guid>http://incorporated.sendtoinc.com/2013/10/08/incorporated</guid>
+      <guid>http://blog.giglab.io/2013/10/08/incorporated</guid>
       <description>&lt;p&gt;Incorporated provides a great typography, responsive design, author details, semantic markup and more.&lt;/p&gt;
 
 &lt;p&gt;You can set customize post covers, and other things directly in the post front matter:&lt;/p&gt;
