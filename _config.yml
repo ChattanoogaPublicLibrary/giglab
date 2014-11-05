@@ -4,41 +4,41 @@ inc:
   subtitle:     "On the 4th Floor of The Chattanooga Public Library"
   cover_image:  blog-cover.jpg
   logo:         logo.png
-  
+
   # Company information
   company:      The GigLab
   url:          http://blog.giglab.io
-  facebook:     
+  facebook:
   twitter:      GigLabCha
   gplus:        ''
   about_link:   http://blog.giglab.io/about
-  
+
   # Product Information
   product_link: http://blog.giglab.io/resources
   tagline:      "Find out about The GigLab"
-  
+
   # Comments
   disqus:
     # Eg. "exampleblog" Set to false to disable comments
     shortname:  false
-  
+
   # Sharing settings
   sharing:
     twitter:    true
     facebook:   false
     gplus:      false
     hn:         false
-    
-  
- # Analytics     
+
+
+ # Analytics
   analytics:
     google: false # Add tracking code in _includes/_google-analytics.html
-      
-      
+
+
   # Google Fonts
   # eg. 'Droid+Sans:400,700|Droid+Serif:400,700'
   google_font: 'Droid+Sans:400,700'
-  
+
   # Setup your fonts, colors etc at _assets/stylesheets/main.scss
 
 url:         http://blog.giglab.io
@@ -54,7 +54,7 @@ timezone:    nil
 future:      false
 show_drafts: nil
 limit_posts: 0
-pygments:    true
+# pygments:    true
 
 relative_permalinks: true
 
@@ -74,18 +74,18 @@ port:        4000
 baseurl:     /
 lsi:         false
 
-maruku:
-  use_tex:    false
-  use_divs:   false
-  png_engine: blahtex
-  png_dir:    images/latex
-  png_url:    /images/latex
+# maruku:
+#   use_tex:    false
+#   use_divs:   false
+#   png_engine: blahtex
+#   png_dir:    images/latex
+#   png_url:    /images/latex
 
-rdiscount:
-  extensions: []
+# rdiscount:
+#   extensions: []
 
-redcarpet:
-  extensions: []
+# redcarpet:
+#   extensions: []
 
 kramdown:
   auto_ids: true
@@ -95,31 +95,35 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   use_coderay: false
 
-  coderay:
-    coderay_wrap: div
-    coderay_line_numbers: inline
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: style
+#   coderay:
+#     coderay_wrap: div
+#     coderay_line_numbers: inline
+#     coderay_line_numbers_start: 1
+#     coderay_tab_width: 4
+#     coderay_bold_every: 10
+#     coderay_css: style
 
-redcloth:
-  hard_breaks: true
+# redcloth:
+#   hard_breaks: true
+
+# Sass Directory
+sass:
+    sass_dir: assets/stylesheets/_sass
 
 #
 # jekyll-assets: see more at https://github.com/ixti/jekyll-assets
 #
-assets:
+# assets:
 
-  dirname: assets
-  baseurl: /assets/
-  sources:
-    - _assets/javascripts
-    - _assets/stylesheets
-    - _assets/images
-  js_compressor: uglifier
-  css_compressor: sass
-  cachebust: none
-  cache: false
-  gzip: [ text/css, application/javascript ]
-  debug: false
+#   dirname: assets
+#   baseurl: /assets/
+#   sources:
+#     - _assets/javascripts
+#     - _assets/stylesheets
+#     - _assets/images
+#   js_compressor: uglifier
+#   css_compressor: sass
+#   cachebust: none
+#   cache: false
+#   gzip: [ text/css, application/javascript ]
+#   debug: false
