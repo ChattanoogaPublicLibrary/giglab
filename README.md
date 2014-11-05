@@ -3,7 +3,7 @@ Modern Jekyll based blog. Great for companies, products or anything. See live at
 
 ## Installation & Usage
     bundle install
-    jekyll serve --watch
+    bundle exec jekyll serve --watch
 
 _Note: Requires Ruby version 1.9.3 =>. For example use [rbenv](https://github.com/sstephenson/rbenv)_   
     
@@ -15,20 +15,15 @@ jekyll-incorporated/
 ├── _config.yml
 ├── _assets/
     ├── stylesheets/
-        ├── main.scss
+        ├── css/
+          ├── main.scss
 ```
 
 _Note: when editing _config.yml, you need to restart jekyll to see the changes.__
 
     
 ## Publish to Github Pages
-1. Add your domain to _CNAME_
-2. Edit your repo address at _Rakefile_
-    
-Run rake task. **NOTE: It will deploy the generated site to _gh-pages_ branch overwriting it**    
-``` 
-rake site:publish
-```
+1. Add your domain to _CNAME_  
 
 ## Usage examples
 

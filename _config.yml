@@ -11,10 +11,10 @@ inc:
   facebook:
   twitter:      GigLabCha
   gplus:        ''
-  about_link:   http://blog.giglab.io/about
+  about_link:   /2014/09/13/begin
 
   # Product Information
-  product_link: http://blog.giglab.io/resources
+  product_link: /resources
   tagline:      "Find out about The GigLab"
 
   # Comments
@@ -109,6 +109,7 @@ kramdown:
 # Sass Directory
 sass:
     sass_dir: assets/stylesheets/_sass
+    style: :compressed
 
 #
 # jekyll-assets: see more at https://github.com/ixti/jekyll-assets
