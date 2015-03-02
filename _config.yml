@@ -17,6 +17,9 @@ inc:
   product_link: /resources
   tagline:      "Find out about The GigLab"
 
+  education_link: /education
+  tagline: "Curriculum and classes"
+
   # Comments
   disqus:
     # Eg. "exampleblog" Set to false to disable comments
