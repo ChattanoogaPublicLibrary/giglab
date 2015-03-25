@@ -44,7 +44,7 @@ inc:
 
   # Setup your fonts, colors etc at _assets/stylesheets/main.scss
 
-url:         http://blog.giglab.io
+url:         http://giglab.io
 source:      .
 destination: ./_site
 plugins:     ./_plugins
